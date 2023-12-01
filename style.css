@@ -31,23 +31,15 @@ p {
   font-size: 1.25em;
 }
 
-#Quiz{
+#quiz{
   font-weight: bold;
   max-width: 100%;
   padding: 20px;
   margin: 20px;
 }
 
-#fitness {
+#quiz {
   border: 10px solid black;
-}
-
-#nascar {
-  border: 10px solid blue;
-}
-
-#stats {
-  border: 10px solid red;
 }
 
 img {
@@ -62,7 +54,7 @@ body {
 }
 
 @media screen and (min-width: 550px), print {
-  #fitness, #nascar, #stats {
+  #quiz {
   padding: 50px;
 }
   
@@ -74,7 +66,7 @@ body {
 }
 
 @media screen and (min-width: 769px), print {
- #fitness, #nascar, #stats {
+ #quiz {
    width: 30%;
    float: left;
    margin: 0 1%;
