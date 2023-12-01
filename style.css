@@ -1,0 +1,88 @@
+body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+{
+  box-sizing: border-box;
+}
+
+
+#container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5em;
+    padding: 4%;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Itim', cursive;
+}
+
+p {
+  font-family: 'Itim', sans-serif;
+  font-size: 1.25em;
+}
+
+#Quiz{
+  font-weight: bold;
+  max-width: 100%;
+  padding: 20px;
+  margin: 20px;
+}
+
+#fitness {
+  border: 10px solid black;
+}
+
+#nascar {
+  border: 10px solid blue;
+}
+
+#stats {
+  border: 10px solid red;
+}
+
+img {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #9ceaef;
+}
+
+@media screen and (min-width: 550px), print {
+  #fitness, #nascar, #stats {
+  padding: 50px;
+}
+  
+  img {
+    height: 300px;
+    width: 300px;
+  }
+  
+}
+
+@media screen and (min-width: 769px), print {
+ #fitness, #nascar, #stats {
+   width: 30%;
+   float: left;
+   margin: 0 1%;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+  }
+  
+}
